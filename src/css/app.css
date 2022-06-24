@@ -1,0 +1,40 @@
+@import-normalize;
+@import 'header.css';
+@import 'navbar.css';
+@import 'footer.css';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Maison Neue', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* font & border color */
+:root {
+  --gray: #808080;
+  --light-gray: #DDDDDD;
+  --black: black;
+  --white: white;
+  --opacity: rgba(0, 0, 0, 0.5)
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.logo {
+  width: 4.4em;
+  height: 1.5em;
+}

@@ -1,0 +1,31 @@
+.nav__main,
+.nav__main__menu,
+.nav__dropdown-menu__menu,
+.nav__dropdown-menu_location__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 250;
+}
+
+.nav__main__item {
+  padding: 0 1.5em;
+}
+
+.nav__main__menu .nav__main__item:first-child {
+  margin-left: auto;
+}
+
+.triple-dot,
+.close {
+  margin-right: auto;
+  padding-left: 1.5em;
+}
+
+.menu-toggler {
+  background-color: var(--black);
+}
+
+.showMenu {
+  width: 100%;
+}

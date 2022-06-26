@@ -5,6 +5,7 @@ import ClientList from './components/ClientList.jsx'
 import Footer from './components/Footer.jsx'
 import navData from './data/navData.js'
 import clientsData from './data/clientsData.js'
+import Form from './components/Form.jsx'
 import './css/app.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 			<Navbar linkData={navData} />
 			<Hero />
 			<ClientList clientsData={clientsData}/>
+			<Form />
 			<Footer linkData={navData} />
 		</div>
 	)

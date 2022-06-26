@@ -6,6 +6,7 @@
 @import 'hero.css';
 @import 'clientlist.css';
 @import 'client.css';
+@import 'form.css';
 @import 'footer.css';
 @import 'footerlink.css';
 @import 'footerlinksocial.css';
@@ -34,7 +35,9 @@ body {
   --border-footer-gray: #3E3E3E;
   --black: black;
   --footer-black: #0E0E0E;
+  --button-black: #121212;
   --white: white;
+  --red: #FF2929;
   --opacity: rgba(0, 0, 0, 0.66)
 }
 

@@ -1,27 +1,24 @@
 import React from 'react'
-import DEPTWhite from '../assets/svg/DEPT®LOGO2022White.svg'
 import NavLink from './NavLink'
 import NavHamburgerMenu from './NavHamburgerMenu'
-// import navData from '../data/navData'
+import DEPTWhite from '../assets/svg/DEPT®LOGO2022White.svg'
+
+// Container for the navbar
 
 export default function Navbar({ linkData }) {
 	return (
 		<header>
 			<nav>
 				<div className='nav__main'>
-					<a href='/home'>
+					<a href={linkData.home.link} className='nav__main__home'>
 						<img
 							src={DEPTWhite}
 							alt='White DEPT® logo'
-							className='logo header__logo'
+							className='logo nav__main__header__logo'
 						/>
 					</a>
-					<div className='nav__main__link'>
-						<NavLink linkData={linkData} />
-					</div>
-					<div className='nav__main__hamburger'>
-						<NavHamburgerMenu linkData={linkData} />
-					</div>
+					<NavLink linkData={linkData} />
+					<NavHamburgerMenu linkData={linkData} />
 				</div>
 			</nav>
 		</header>

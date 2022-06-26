@@ -1,0 +1,22 @@
+.client__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 4em;
+  padding: 0 2.2em;
+}
+
+.client__logo__svg {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .client__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6em;
+    padding-top: 4em;
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+}

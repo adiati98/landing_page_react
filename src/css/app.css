@@ -1,12 +1,14 @@
 @import-normalize;
-@import 'header.css';
 @import 'navbar.css';
 @import 'navhamburgermenu.css';
 @import 'navlink.css';
 @import 'navlinkhamburger.css';
 @import 'hero.css';
+@import 'clientlist.css';
+@import 'client.css';
 @import 'footer.css';
 @import 'footerlink.css';
+@import 'footerlinksocial.css';
 
 *,
 *::after,

@@ -1,6 +1,8 @@
 import React from 'react'
 // import NavLinkLocation from './NavLinkLocation'
 
+// Links in the hamburger menu
+
 export default function NavLinkHamburger({ linkData }) {
 	return (
 		<div className='nav__hamburger-menu'>

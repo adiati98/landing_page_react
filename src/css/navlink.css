@@ -2,26 +2,26 @@
     visibility: hidden;
   }
 
+  .nav__main__links,
+  .nav__main__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+  }
+
   @media (min-width: 990px) {
     .menu--show {
       visibility: visible;
     }
 
-    .nav__main,
-    .nav__main__menu {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      font-weight: 300;
-    }
-
-    .nav__main__item {
-      padding-right: 2.5em;
+    .nav__main__links {
+      margin-left: auto;
     }
 
     .nav__main__link {
       text-transform: uppercase;
-      padding: 0.5em;
+      padding: 2em;
     }
 
     .nav__main__link__text {
@@ -33,9 +33,5 @@
       cursor: pointer;
       border-bottom: 1px solid var(--white);
       transition: 1s border-bottom;
-    }
-
-    .nav__main__menu .nav__main__item:last-child {
-      padding-right: 3.5em;
     }
   }

@@ -18,22 +18,13 @@
   border: 1px solid var(--black);
 }
 
-/* button for mobile size */
-.nav__main__hamburger__btn {
-  margin-left: auto;
-}
-
 @media (min-width: 990px) {
   .menu__icon {
     visibility: visible;
+    padding: 2em;
   }
 
   .menu__btn {
     visibility: hidden;
-  }
-
-  .triple-dot,
-  .close {
-    padding-left: 1.5em;
   }
 }

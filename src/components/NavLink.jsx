@@ -1,8 +1,10 @@
 import React from 'react'
 
+// Links to other pages for desktop
+
 export default function NavLink({ linkData }) {
 	return (
-		<div className='nav'>
+		<div className='nav__main__links'>
 			<ul className='nav__main__menu menu--show'>
 				<li className='nav__main__item'>
 					<a href={linkData.work.link} className='nav__main__link'>

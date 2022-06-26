@@ -1,47 +1,47 @@
 const navData = {
 	home: {
 		title: 'Home',
-		link: '/',
+		link: '#home',
 	},
 	work: {
 		title: 'Work',
-		link: '/work',
+		link: '#work',
 	},
 	culture: {
 		title: 'Culture',
-		link: '/culture',
+		link: '#culture',
 	},
 	services: {
 		title: 'Services',
-		link: '/services',
+		link: '#services',
 	},
 	insights: {
 		title: 'Insights',
-		link: '/insights',
+		link: '#insights',
 	},
 	careers: {
 		title: 'Careers',
-		link: '/careers',
+		link: '#careers',
 	},
 	contact: {
 		title: 'Contact',
-		link: '/contact',
+		link: '#contact',
 	},
 	partners: {
 		title: 'Partners',
-		link: '/partners',
+		link: '#partners',
 	},
 	stories: {
 		title: 'Stories',
-		link: '/stories',
+		link: '#stories',
 	},
 	events: {
 		title: 'Events',
-		link: '/events',
+		link: '#events',
 	},
 	about: {
 		title: 'About',
-		link: '/about',
+		link: '#about',
 	},
 }
 

@@ -1,10 +1,12 @@
 import React from 'react'
 
+// Links of locations in the hamburger menu
+
 export default function NavLinkLocation() {
 	return (
 		<div className='nav__hamburger-menu__location'>
 			<ul className='nav__hamburger-menu__location__menu'>
-				<li className='gray nav__hamburger-menu--left__item'>Landen</li>
+				<li className='nav__hamburger-menu__item--left'>Landen</li>
 				<li className='nav__hamburger-menu__location__item'>
 					<a href='#global' className='nav__hamburger-menu__location__link'>
 						GLOBAL

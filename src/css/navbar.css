@@ -8,22 +8,17 @@ nav {
   z-index: 100;
 }
 
-.logo {
-  width: 4em;
-}
-
 .nav__main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.nav__main__home {
+  width: 4em;
 }
 
 @media (min-width: 990px) {
   nav {
     padding: 2em 4em;
-  }
-
-  .nav__main__link {
-    margin-left: auto;
   }
 }

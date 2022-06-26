@@ -1,8 +1,10 @@
 // import Header from './components/Header.jsx'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
+import ClientList from './components/ClientList.jsx'
 import Footer from './components/Footer.jsx'
 import navData from './data/navData.js'
+import clientsData from './data/clientsData.js'
 import './css/app.css'
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
 		<div className='App'>
 			<Navbar linkData={navData} />
 			<Hero />
+			<ClientList clientsData={clientsData}/>
 			<Footer linkData={navData} />
 		</div>
 	)

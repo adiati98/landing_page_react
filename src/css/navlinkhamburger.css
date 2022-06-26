@@ -1,3 +1,7 @@
+.nav__hamburger-menu__item {
+  border-bottom: 1px solid var(--nav-line-gray);
+}
+
 .nav__hamburger-menu__link {
   text-transform: uppercase;
 }
@@ -12,8 +16,7 @@
 
 @media (min-width: 990px) {
 
-  .nav__hamburger-menu__menu,
-  .nav__hamburger-menu_location__menu {
+  .nav__hamburger-menu__menu {
     display: flex;
     align-items: center;
     justify-content: space-between;

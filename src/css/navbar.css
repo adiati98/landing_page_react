@@ -1,31 +1,29 @@
-.nav__main,
-.nav__main__menu,
-.nav__dropdown-menu__menu,
-.nav__dropdown-menu_location__menu {
+nav {
+  background-color: var(--black);
+  padding: 2em 2em;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  width: 4em;
+}
+
+.nav__main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-weight: 250;
 }
 
-.nav__main__item {
-  padding: 0 1.5em;
-}
+@media (min-width: 990px) {
+  nav {
+    padding: 2em 4em;
+  }
 
-.nav__main__menu .nav__main__item:first-child {
-  margin-left: auto;
-}
-
-.triple-dot,
-.close {
-  margin-right: auto;
-  padding-left: 1.5em;
-}
-
-.menu-toggler {
-  background-color: var(--black);
-}
-
-.showMenu {
-  width: 100%;
+  .nav__main__link {
+    margin-left: auto;
+  }
 }

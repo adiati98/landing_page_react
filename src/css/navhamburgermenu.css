@@ -1,0 +1,39 @@
+.menu__icon {
+  visibility: hidden;
+}
+
+.menu__btn {
+  visibility: visible;
+  position: absolute;
+  right: 10%;
+}
+
+.menu__icon:hover {
+  cursor: pointer;
+}
+
+.menu--toggler {
+  color: var(--white);
+  background-color: var(--black);
+  border: 1px solid var(--black);
+}
+
+/* button for mobile size */
+.nav__main__hamburger__btn {
+  margin-left: auto;
+}
+
+@media (min-width: 990px) {
+  .menu__icon {
+    visibility: visible;
+  }
+
+  .menu__btn {
+    visibility: hidden;
+  }
+
+  .triple-dot,
+  .close {
+    padding-left: 1.5em;
+  }
+}

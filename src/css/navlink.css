@@ -1,0 +1,41 @@
+  .menu--show {
+    visibility: hidden;
+  }
+
+  @media (min-width: 990px) {
+    .menu--show {
+      visibility: visible;
+    }
+
+    .nav__main,
+    .nav__main__menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 300;
+    }
+
+    .nav__main__item {
+      padding-right: 2.5em;
+    }
+
+    .nav__main__link {
+      text-transform: uppercase;
+      padding: 0.5em;
+    }
+
+    .nav__main__link__text {
+      border-bottom: 8px solid transparent;
+    }
+
+    .nav__main__link__text:hover,
+    .nav__main__link__text:focus {
+      cursor: pointer;
+      border-bottom: 1px solid var(--white);
+      transition: 1s border-bottom;
+    }
+
+    .nav__main__menu .nav__main__item:last-child {
+      padding-right: 3.5em;
+    }
+  }

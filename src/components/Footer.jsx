@@ -1,27 +1,19 @@
 import React from 'react'
+import FooterLink from './FooterLink'
 
-export default function Footer() {
-  return (
-    <div className="footer">
-      <div className="footer__nav">
-        <p>LOGO</p>
-        <ul>
-          <li><a href="#work">WORK</a></li>
-          <li><a href="#services">SERVICES</a></li>
-          <li><a href="#stories">STORIES</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#careers">CAREERS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-      </div>
-      <div className="footer__info">
-        <ul>
-          <li className="gray">Chamber of Commerce: 63464101</li>
-          <li className="gray">VAT: NL 8552.47.502.B01</li>
-          <li className="gray">Terms and conditions</li>
-        </ul>
-      </div>
-    </div>
-  )
+export default function Footer({ linkData }) {
+	return (
+		<footer>
+			<div className='footer__container'>
+				<FooterLink linkData={linkData} />
+				<div className='footer__info'>
+					<ul className='footer__info__menu'>
+						<li className='footer__info__item'>Chamber of Commerce: 63464101</li>
+						<li className='footer__info__item'>VAT: NL 8552.47.502.B01</li>
+						<li className='footer__info__item'>Terms and conditions</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	)
 }
-

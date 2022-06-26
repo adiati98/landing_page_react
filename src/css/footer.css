@@ -1,8 +1,23 @@
-.footer {
+footer {
+  background-color: var(--footer-black);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.footer__nav {
+.footer__container {
+  padding: 0 3em;
+}
+
+.footer__info__menu {
+  color: var(--gray);
   display: flex;
+  align-items: center;
+  padding: 4em 0;
+}
+
+.footer__info__item {
+  padding-right: 4em;
 }

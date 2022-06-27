@@ -59,6 +59,7 @@ textarea {
   cursor: pointer;
   background-color: var(--button-black);
   color: var(--white);
+  transition: .5s ease;
 }
 
 @media (min-width: 990px) {

@@ -108,7 +108,7 @@
   }
 
   .card__container__text__break,
-    .card__container__image__break {
+  .card__container__image__break {
     width: fit-content;
   }
 
@@ -123,7 +123,4 @@
   .read-more {
     padding-left: 1em;
   }
-
-
 }
-

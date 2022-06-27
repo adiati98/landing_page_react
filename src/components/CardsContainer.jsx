@@ -6,7 +6,7 @@ export default function CardsContainer({ cardsData }) {
 		<div className='cards__container'>
 			<div className='card__container'>
 				{cardsData.cardImages1.map((card, index) => (
-					<div className='card__container__image card__container__image-1'>
+					<div className='card__container__image'>
 						<img
 							className='card__image'
 							src={card.image}
@@ -21,7 +21,7 @@ export default function CardsContainer({ cardsData }) {
 								{card.title}
 							</p>
 							<a href='#blog' className='show-link'>
-								<img src={circle} alt='' className='circle circle-flex' />
+								<img src={circle} alt='' className='circle' />
 								<span className='read-more'>Read more</span>
 							</a>
 						</div>
@@ -35,7 +35,7 @@ export default function CardsContainer({ cardsData }) {
 							<p className='card__text__flex__name'>{card.companyName}</p>
 							<p className='card__text__flex__description'>{card.text}</p>
 							<a href='#blog' className='show-link'>
-								<img src={circle} alt='' className='circle circle-flex' />
+								<img src={circle} alt='' className='circle' />
 								<span className='read-more'>Read more</span>
 							</a>
 						</div>
@@ -54,7 +54,7 @@ export default function CardsContainer({ cardsData }) {
 						</p>
 						<p className='image__text__flex__title'>{cardsData.florensis[0].title}</p>
 						<a href='#blog' className='show-link'>
-							<img src={circle} alt='' className='circle circle-flex' />
+							<img src={circle} alt='' className='circle' />
 							<span className='read-more'>Read more</span>
 						</a>
 					</div>
@@ -62,7 +62,7 @@ export default function CardsContainer({ cardsData }) {
 			</div>
 			<div className='card__container'>
 				{cardsData.cardImages2.map((card, index) => (
-					<div className='card__container__image card__container__image-2'>
+					<div className='card__container__image'>
 						<img
 							className='card__image__flex'
 							src={card.image}
@@ -77,7 +77,7 @@ export default function CardsContainer({ cardsData }) {
 								{card.title}
 							</p>
 							<a href='#blog' className='show-link'>
-								<img src={circle} alt='' className='circle circle-flex' />
+								<img src={circle} alt='' className='circle' />
 								<span className='read-more'>Read more</span>
 							</a>
 						</div>
@@ -91,7 +91,7 @@ export default function CardsContainer({ cardsData }) {
 							<p className='card__text__flex__name'>{card.companyName}</p>
 							<p className='card__text__flex__description'>{card.text}</p>
 							<a href='#blog' className='show-link'>
-								<img src={circle} alt='' className='circle circle-flex' />
+								<img src={circle} alt='' className='circle' />
 								<span className='read-more'>Read more</span>
 							</a>
 						</div>
@@ -110,7 +110,7 @@ export default function CardsContainer({ cardsData }) {
 						</p>
 						<p className='image__text__flex__title'>{cardsData.florensis[0].title}</p>
 						<a href='#blog' className='show-link'>
-							<img src={circle} alt='' className='circle circle-flex' />
+							<img src={circle} alt='' className='circle' />
 							<span className='read-more'>Read more</span>
 						</a>
 					</div>
@@ -118,7 +118,7 @@ export default function CardsContainer({ cardsData }) {
 			</div>
 			<div className='card__container'>
 				{cardsData.cardImages3.map((card, index) => (
-					<div className='card__container__image card__container__image-3'>
+					<div className='card__container__image'>
 						<img
 							className='card__image'
 							src={card.image}
@@ -133,7 +133,7 @@ export default function CardsContainer({ cardsData }) {
 								{card.title}
 							</p>
 							<a href='#blog' className='show-link'>
-								<img src={circle} alt='' className='circle circle-flex' />
+								<img src={circle} alt='' className='circle' />
 								<span className='read-more'>Read more</span>
 							</a>
 						</div>
@@ -152,7 +152,7 @@ export default function CardsContainer({ cardsData }) {
 			</div>
 			<div className='card__container'>
 				{cardsData.cardImages4.map((card, index) => (
-					<div className='card__container__image card__container__image__4'>
+					<div className='card__container__image'>
 						<img
 							className='card__image'
 							src={card.image}

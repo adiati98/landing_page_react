@@ -11,11 +11,9 @@ export default function Form(e) {
 							<input type='text' id='name' />
 						</div>
 						<div className='form__email'>
-							<label htmlFor='email'>
-								Email
-							</label>
-							<input type='text' id='email' />
-              <p className="form__input__warning">This field is required</p>
+							<label htmlFor='email'>Email</label>
+							<input type='text' id='email' aria-describedby='form__input__warning' />
+							<p id='form__input__warning'>This field is required</p>
 						</div>
 					</div>
 					<div className='form__message'>

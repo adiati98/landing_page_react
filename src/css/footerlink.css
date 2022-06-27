@@ -17,6 +17,10 @@
   margin: 1em 0;
 }
 
+.footer__nav__link {
+  padding: 2em;
+}
+
 @media (min-width: 990px) {
   .footer__nav__logo {
     visibility: visible;
@@ -30,7 +34,7 @@
   }
 
   .footer__nav__menu {
-    margin-left: 20em;
+    padding-left: 10em;
   }
 
   .footer__nav__item {

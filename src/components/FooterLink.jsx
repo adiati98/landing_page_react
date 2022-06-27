@@ -6,8 +6,12 @@ import DEPTWhite from '../assets/svg/DEPT®LOGO2022White.svg'
 export default function FooterLink({ linkData }) {
 	return (
 		<div className='footer__nav'>
-			<a href={linkData.home.link} className="footer__nav__link">
-				<img src={DEPTWhite} alt='White DEPT® logo' className='logo footer__nav__logo' />
+			<a href={linkData.home.link} className='footer__nav__link' aria-label='Home'>
+				<img
+					src={DEPTWhite}
+					alt='White DEPT® logo'
+					className='logo footer__nav__logo'
+				/>
 			</a>
 			<ul className='footer__nav__menu'>
 				<li className='footer__nav__item'>

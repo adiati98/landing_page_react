@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# 🛬 Landing Page 
+
+## Description
+
+This landing page is built with Create React App (version 18.2.0) and CSS.
+
+Live preview is hosted [here](https://courageous-shortbread-903955.netlify.app/), powered by Netlify.
+
+## Installation
+
+```bash
+$ git clone https://github.com/adiati98/landing_page_react.git
+$ cd landing_page_react
+$ npm install
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

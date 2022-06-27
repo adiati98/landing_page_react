@@ -1,24 +1,15 @@
+.nav__hamburger-menu__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+}
+
 .nav__hamburger-menu__item {
   border-bottom: 1px solid var(--nav-line-gray);
+  margin-bottom: 0.5em;
 }
 
 .nav__hamburger-menu__link {
   text-transform: uppercase;
-}
-
-.nav__hamburger-menu__menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-@media (min-width: 990px) {
-
-  .nav__hamburger-menu__menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 300;
-  }
 }

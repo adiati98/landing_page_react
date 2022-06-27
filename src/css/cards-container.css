@@ -1,0 +1,129 @@
+.card__container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  opacity: var(--opacity);
+}
+
+.card__container__image,
+.card__container__image__break {
+  position: relative;
+}
+
+.card__image__text__container,
+.image__text__flex {
+  position: absolute;
+  bottom: 5%;
+  padding-left: 2em;
+}
+
+.card__image__text,
+.image__text__flex {
+  color: var(--white);
+}
+
+.card__image__text__name,
+.image__text__flex__name,
+.read-me {
+  font-size: 1rem;
+}
+
+.card__image__text__name,
+.image__text__flex__name,
+.image__text__flex__title {
+  padding-bottom: 1em;
+}
+
+.card__image__text__title,
+.image__text__flex__title {
+  font-size: 1.8rem;
+  padding-right: 4em;
+}
+
+.circle {
+  max-width: 2.5%;
+}
+
+.show-link {
+  visibility: hidden;
+}
+
+.card__text__flex__name,
+.card__text__flex__description,
+.card__container__quote {
+  background-color: var(--button-black);
+  color: var(--white);
+}
+
+.card__text__flex {
+  border-bottom: 1px solid var(--light-gray);
+  background-color: var(--button-black);
+  padding: 2em;
+}
+
+.card__text__flex__name {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
+
+.card__text__flex__description {
+  padding-bottom: 1em;
+}
+
+.card__container__quote {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.card__container__quote__name {
+  padding-top: 2em;
+  font-size: 1.1em;
+}
+
+.card__container__quote__description {
+  font-size: 1.6em;
+}
+
+@media (min-width: 990px) {
+  .card__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .show-link {
+    visibility: visible;
+  }
+
+  .card__container__break {
+    display: flex;
+    width: fit-content;
+  }
+
+  .card__container__break--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .card__container__text__break,
+    .card__container__image__break {
+    width: fit-content;
+  }
+
+  .card__image__text__title {
+    padding-bottom: 1em;
+  }
+
+  .card__text__flex {
+    width: 100%;
+  }
+
+  .read-more {
+    padding-left: 1em;
+  }
+
+
+}
+

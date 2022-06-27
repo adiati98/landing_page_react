@@ -54,10 +54,10 @@
   .hero__text {
     right: 50%;
   }
+}
 
-  @media (min-width: 1440px) {
-    .hero {
-      min-height: 100vh;
-    }
+@media (min-width: 1440px) {
+  .hero {
+    min-height: 100vh;
   }
 }

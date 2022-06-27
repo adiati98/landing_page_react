@@ -10,7 +10,7 @@ export default function FooterLink({ linkData }) {
 				<img
 					src={DEPTWhite}
 					alt='White DEPT® logo'
-					className='logo footer__nav__logo'
+					className='dept_logo footer__nav__logo'
 				/>
 			</a>
 			<ul className='footer__nav__menu'>

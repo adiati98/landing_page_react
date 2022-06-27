@@ -34,7 +34,7 @@ export default function NavHamburgerMenu({ linkData }) {
 					{menuOpen ? (
 						<img src={Close} alt='' className='close' />
 					) : (
-						<span>MENU</span>
+						<span className="menu__btn__text">MENU</span>
 					)}
 				</button>
 			</div>

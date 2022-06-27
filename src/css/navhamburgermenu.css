@@ -5,7 +5,13 @@
 .menu__btn {
   visibility: visible;
   position: absolute;
-  right: 10%;
+  right: 3%;
+  
+}
+
+.menu__btn__text {
+  font-size: 0.8rem;
+  line-height: 18px;
 }
 
 .menu__icon:hover {

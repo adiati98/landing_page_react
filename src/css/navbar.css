@@ -13,11 +13,13 @@ nav {
   align-items: center;
 }
 
-.nav__main__home {
-  width: 4em;
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+      padding: 2em 1.5em;
+    }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 1025px) {
   nav {
     padding: 2em 4em;
   }

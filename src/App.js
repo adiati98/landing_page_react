@@ -1,6 +1,7 @@
 // import Header from './components/Header.jsx'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
+import Category from './components/Category.jsx'
 import ClientList from './components/ClientList.jsx'
 import Footer from './components/Footer.jsx'
 import navData from './data/navData.js'
@@ -13,6 +14,7 @@ function App() {
 		<div className='App'>
 			<Navbar linkData={navData} />
 			<Hero />
+			<Category />
 			<ClientList clientsData={clientsData}/>
 			<Form />
 			<Footer linkData={navData} />

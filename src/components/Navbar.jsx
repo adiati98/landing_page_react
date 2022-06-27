@@ -10,11 +10,11 @@ export default function Navbar({ linkData }) {
 		<header>
 			<nav>
 				<div className='nav__main'>
-					<a href={linkData.home.link} className='nav__main__home' aria-label="Home">
+					<a href={linkData.home.link} className='nav__main__home' aria-label='Home'>
 						<img
 							src={DEPTWhite}
 							alt='White DEPT® logo'
-							className='logo nav__main__header__logo'
+							className='dept_logo nav__main__header__logo'
 						/>
 					</a>
 					<NavLink linkData={linkData} />

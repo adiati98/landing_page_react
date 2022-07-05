@@ -61,3 +61,13 @@ svg {
   width: 73px;
   height: 20px;
 }
+
+/* hero & cards' font */
+
+.small {
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+}

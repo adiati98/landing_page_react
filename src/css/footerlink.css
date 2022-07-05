@@ -40,14 +40,14 @@
     padding: 0 1.5em;
   }
 
-    .footer__nav__link__text {
-      border-bottom: 8px solid transparent;
-    }
+  .footer__nav__link__text {
+    border-bottom: 8px solid transparent;
+  }
 
   .footer__nav__link__text:hover,
   .footer__nav__link__text:focus {
     cursor: pointer;
-      border-bottom: 1px solid var(--white);
-      transition: .8s border-bottom;
+    border-bottom: 1px solid var(--white);
+    transition: .8s border-bottom;
   }
 }

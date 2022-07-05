@@ -5,14 +5,9 @@ export default function CardsContainer({ cardsData }) {
 	return (
 		<div className='cards__container'>
 			<div className='card__container'>
-				{cardsData.cardImages1.map((card, index) => (
-					<div className='card__container__image'>
-						<img
-							className='card__image'
-							src={card.image}
-							alt={card.altText}
-							key={card.id}
-						/>
+				{cardsData.cardImages1.map((card) => (
+					<div className='card__container__image' key={card.id}>
+						<img className='card__image' src={card.image} alt={card.altText} />
 						<div className='card__image__text__container'>
 							<p className='card__image__text card__image__text__name'>
 								{card.companyName}
@@ -30,8 +25,8 @@ export default function CardsContainer({ cardsData }) {
 			</div>
 			<div className='card__container__break card__container__break--reverse'>
 				<div className='card__container__text__break'>
-					{cardsData.cardText.map((card, index) => (
-						<div className='card__text__flex'>
+					{cardsData.cardText.map((card) => (
+						<div className='card__text__flex' key={card.id}>
 							<p className='card__text__flex__name'>{card.companyName}</p>
 							<p className='card__text__flex__description'>{card.text}</p>
 							<a href='#blog' className='show-link'>
@@ -41,12 +36,14 @@ export default function CardsContainer({ cardsData }) {
 						</div>
 					))}
 				</div>
-				<div className='card__container__image__break'>
+				<div
+					className='card__container__image__break'
+					key={cardsData.florensis[0].id}
+				>
 					<img
 						className='card__image__flex'
 						src={cardsData.florensis[0].image}
 						alt={cardsData.florensis[0].altText}
-						key={cardsData.florensis[0].id}
 					/>
 					<div className='image__text__flex'>
 						<p className='image__text__flex__name'>
@@ -61,14 +58,9 @@ export default function CardsContainer({ cardsData }) {
 				</div>
 			</div>
 			<div className='card__container'>
-				{cardsData.cardImages2.map((card, index) => (
-					<div className='card__container__image'>
-						<img
-							className='card__image__flex'
-							src={card.image}
-							alt={card.altText}
-							key={card.id}
-						/>
+				{cardsData.cardImages2.map((card) => (
+					<div className='card__container__image' key={card.id}>
+						<img className='card__image__flex' src={card.image} alt={card.altText} />
 						<div className='card__image__text__container'>
 							<p className='card__image__text card__image__text__name'>
 								{card.companyName}
@@ -86,8 +78,8 @@ export default function CardsContainer({ cardsData }) {
 			</div>
 			<div className='card__container__break'>
 				<div className='card__container__text__break'>
-					{cardsData.cardText.map((card, index) => (
-						<div className='card__text__flex'>
+					{cardsData.cardText.map((card) => (
+						<div className='card__text__flex' key={card.id}>
 							<p className='card__text__flex__name'>{card.companyName}</p>
 							<p className='card__text__flex__description'>{card.text}</p>
 							<a href='#blog' className='show-link'>
@@ -97,12 +89,14 @@ export default function CardsContainer({ cardsData }) {
 						</div>
 					))}
 				</div>
-				<div className='card__container__image__break'>
+				<div
+					className='card__container__image__break'
+					key={cardsData.florensis[1].id}
+				>
 					<img
 						className='card__image__flex'
 						src={cardsData.florensis[1].image}
 						alt={cardsData.florensis[1].altText}
-						key={cardsData.florensis[1].id}
 					/>
 					<div className='image__text__flex'>
 						<p className='image__text__flex__name'>
@@ -117,14 +111,9 @@ export default function CardsContainer({ cardsData }) {
 				</div>
 			</div>
 			<div className='card__container'>
-				{cardsData.cardImages3.map((card, index) => (
-					<div className='card__container__image'>
-						<img
-							className='card__image'
-							src={card.image}
-							alt={card.altText}
-							key={card.id}
-						/>
+				{cardsData.cardImages3.map((card) => (
+					<div className='card__container__image' key={card.id}>
+						<img className='card__image' src={card.image} alt={card.altText} />
 						<div className='card__image__text__container'>
 							<p className='card__image__text card__image__text__name'>
 								{card.companyName}
@@ -151,14 +140,9 @@ export default function CardsContainer({ cardsData }) {
 				</p>
 			</div>
 			<div className='card__container'>
-				{cardsData.cardImages4.map((card, index) => (
-					<div className='card__container__image'>
-						<img
-							className='card__image'
-							src={card.image}
-							alt={card.altText}
-							key={card.id}
-						/>
+				{cardsData.cardImages4.map((card) => (
+					<div className='card__container__image' key={card.id}>
+						<img className='card__image' src={card.image} alt={card.altText} />
 						<div className='card__image__text__container'>
 							<p className='card__image__text card__image__text__name'>
 								{card.companyName}

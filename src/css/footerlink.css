@@ -9,7 +9,7 @@
 }
 
 .footer__nav__item {
-  margin: 1em 0;
+  padding: 1em 0;
 }
 
 .footer__nav__link {
@@ -20,7 +20,7 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 990px) {
+@media (min-width: 768px) and (orientation: landscape) {
   .footer__nav__logo {
     visibility: visible;
   }
@@ -33,11 +33,15 @@
   }
 
   .footer__nav__menu {
-    padding-left: 10em;
+    padding-left: 4em;
   }
 
   .footer__nav__item {
-    padding: 0 1.5em;
+    padding: 0 1em;
+  }
+
+  .footer__nav__link:nth-of-type(1) {
+    padding: 0;
   }
 
   .footer__nav__link__text {

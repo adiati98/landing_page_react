@@ -7,7 +7,7 @@ import FooterLinkSocial from './FooterLinkSocial'
 export default function Footer({ linkData }) {
 	return (
 		<footer>
-			<div className='footer__container'>
+			<div className='footer__container p-2'>
 				<div className='footer__container--top'>
 					<div className='footer__container__links'>
 						<FooterLink linkData={linkData} />

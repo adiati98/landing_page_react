@@ -8,8 +8,10 @@
   margin: 1em 0;
 }
 
-@media (min-width: 990px) {
+@media (min-width: 768px) and (orientation: landscape) {
   .footer__social__menu {
-    visibility: hidden;
-  }
+      visibility: hidden;
+      position: absolute;
+      left: -999px;
+    }
 }

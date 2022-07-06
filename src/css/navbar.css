@@ -26,30 +26,8 @@ nav {
   justify-content: flex-end;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-  .mobile__home {
-    top: 8%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .mobile__home {
-    top: 3%;
-  }
-}
-
-
 @media (min-width: 1025px) {
-  .navbar__main__home {
-    position: absolute;
-    top: 5%;
-  }
-
   .navbar__main {
     margin-left: auto;
-  }
-
-  .mobile__home {
-    left: 3%;
   }
 }

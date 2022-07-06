@@ -22,9 +22,14 @@
   font-size: 1.2em;
 }
 
-.menu__btn,
-.close {
-  position: absolute;
+.menu__btn {
+position: absolute;
+  right: 3%;
+  top: 35%;
+}
+
+.menu__close {
+position: absolute;
   right: 3%;
   top: 5%;
 }
@@ -38,22 +43,22 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-  .menu__btn,
+  /* .menu__btn,
   .close {
     position: absolute;
     right: 3%;
     top: 8%;
-  }
+  } */
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-  .menu__btn,
+  /* .menu__btn,
   .close {
     position: absolute;
     right: 3%;
     top: 3%;
-  }
+  } */
 }
 
 @media (min-width: 1025px) {

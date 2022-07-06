@@ -43,6 +43,7 @@ Go to [installation](#installation) section to install and [npm-start](#npm-star
 - Work on the basic of form to grab entered value and a simple authorization.
 - Work on the `Category` component to filter or map mock data and render it to a designated page.
 - Add `react-router` for the links.
+- Add portal as modal for hamburger menu.
 - Add styling to animate hamburger menu icons and some effects for images.
 
 ## Installation

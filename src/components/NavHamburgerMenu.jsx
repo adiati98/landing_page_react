@@ -13,7 +13,8 @@ export default function NavHamburgerBtn({
 		<div className='nav__main__hamburger'>
 			<div className='nav__hamburger-menu'>
 				<button
-					className='menu__icon menu--toggler'
+				// conditional for absolute position
+					className={`menu--toggler ${menuOpen ? 'menu__close' : 'menu__icon'}`}
 					aria-label='Toggle menu'
 					onClick={handleToggle}
 				>
@@ -24,7 +25,7 @@ export default function NavHamburgerBtn({
 					)}
 				</button>
 				<button
-					className='menu__btn menu--toggler'
+					className={`menu--toggler ${menuOpen ? 'menu__close' : 'menu__btn'}`}
 					aria-label='Toggle menu'
 					onClick={handleToggle}
 				>

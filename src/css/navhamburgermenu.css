@@ -15,7 +15,11 @@
 
 .close,
 .triple-dot {
-  width: fit-content;
+  width: 1.5em;
+}
+
+.menu__btn__text {
+  font-size: 1.2em;
 }
 
 .menu__btn,

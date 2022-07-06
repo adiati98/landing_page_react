@@ -12,7 +12,15 @@ nav {
 .mobile__home {
   position: absolute;
   top: 5%;
+  left: 5%;
 }
+
+.mobile__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 
 @media (min-width: 1025px) {
   .navbar__main__home {
@@ -22,5 +30,9 @@ nav {
 
   .navbar__main {
     margin-left: auto;
+  }
+
+  .mobile__home {
+    left: 3%;
   }
 }

@@ -16,8 +16,8 @@ export default function Navbar({ linkData }) {
 	return (
 		<header>
 			<nav>
-				<div className='navbar p-2'>
-					<div className={menuOpen ? 'mobile__home' : 'navbar__main__home'}>
+				<div className={`p-2 ${menuOpen ? 'mobile__navbar' : 'navbar'}`}>
+					<div className={`${menuOpen ? 'mobile__home' : 'navbar__main__home'}`}>
 						<a
 							href={linkData.home.link}
 							className='navbar__main__home__link'

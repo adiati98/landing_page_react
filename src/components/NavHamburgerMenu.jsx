@@ -1,17 +1,14 @@
-import React, { useState } from 'react'
-import NavLinkHamburger from './NavLinkHamburger'
+import React from 'react'
 import TripleDot from '../assets/svg/triple dot.svg'
 import Close from '../assets/svg/Vector-1.svg'
 
 // Handle buttons for hamburger menu
 
-export default function NavHamburgerMenu({ linkData }) {
-	const [menuOpen, setMenuOpen] = useState(false)
-
-	const handleToggle = () => {
-		setMenuOpen((menuOpen) => !menuOpen)
-	}
-
+export default function NavHamburgerBtn({
+	handleToggle,
+	menuOpen,
+	setMenuOpen,
+}) {
 	return (
 		<div className='nav__main__hamburger'>
 			<div className='nav__hamburger-menu'>
@@ -34,11 +31,10 @@ export default function NavHamburgerMenu({ linkData }) {
 					{menuOpen ? (
 						<img src={Close} alt='' className='close' />
 					) : (
-						<span className="menu__btn__text">MENU</span>
+						<span className='menu__btn__text'>MENU</span>
 					)}
 				</button>
 			</div>
-			{menuOpen && <NavLinkHamburger linkData={linkData} />}
 		</div>
 	)
 }

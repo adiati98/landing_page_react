@@ -1,33 +1,44 @@
+.menu--toggler {
+  padding-left: 1em;
+  color: var(--white);
+  background-color: var(--black);
+  border: 1px solid var(--black);
+}
+
 .menu__icon {
   visibility: hidden;
 }
 
 .menu__btn {
   visibility: visible;
+}
+
+.close,
+.triple-dot {
+  width: fit-content;
+}
+
+.menu__btn,
+.close {
   position: absolute;
   right: 3%;
-  
+  top: 5%;
 }
 
-.menu__btn__text {
-  font-size: 0.8rem;
-  line-height: 18px;
-}
-
-.menu__icon:hover {
+.menu__btn:hover,
+.menu__btn:focus,
+.close:hover,
+.close:focus {
   cursor: pointer;
 }
 
-.menu--toggler {
-  color: var(--white);
-  background-color: var(--black);
-  border: 1px solid var(--black);
-}
-
-@media (min-width: 990px) {
+@media (min-width: 1025px) {
   .menu__icon {
     visibility: visible;
-    padding: 2em;
+  }
+
+  .menu__icon:hover {
+    cursor: pointer;
   }
 
   .menu__btn {

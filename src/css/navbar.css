@@ -1,26 +1,26 @@
 nav {
   background-color: var(--black);
-  padding: 2em 2em;
-  overflow: hidden;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 100;
 }
 
-.nav__main {
+.navbar,
+.navbar__main {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  nav {
-      padding: 2em 1.5em;
-    }
+.mobile__home {
+  position: absolute;
+  top: 5%;
 }
 
 @media (min-width: 1025px) {
-  nav {
-    padding: 2em 4em;
+  .navbar__main__home {
+    position: absolute;
+    top: 5%;
+  }
+
+  .navbar__main {
+    margin-left: auto;
   }
 }

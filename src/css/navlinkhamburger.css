@@ -1,14 +1,32 @@
 .nav__hamburger-menu__menu {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  text-transform: uppercase;
+  text-align: right;
+  padding-top: 3em;
 }
 
 .nav__hamburger-menu__item {
   border-bottom: 1px solid var(--nav-line-gray);
   margin-bottom: 0.5em;
+  padding-top: 1em;
+  transition: border-bottom 2s ease-out;
 }
 
-.nav__hamburger-menu__link {
-  text-transform: uppercase;
+.nav__hamburger-menu__item:hover,
+.nav__hamburger-menu__item:focus {
+  border-bottom: none;
+}
+
+.nav__hamburger-menu__text {
+  font-size: 2.5rem;
+  border-bottom: 8px solid transparent;
+  height: 100px;
+  transition: .8s border-bottom;
+}
+
+.nav__hamburger-menu__text:hover,
+.nav__hamburger-menu__text:focus {
+  cursor: pointer;
+  border-bottom: 1px solid var(--white);
 }

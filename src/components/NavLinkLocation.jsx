@@ -9,37 +9,39 @@ export default function NavLinkLocation() {
 				<li className='nav__hamburger-menu__item--left'>Landen</li>
 				<li className='nav__hamburger-menu__location__item'>
 					<a href='#global' className='nav__hamburger-menu__location__link'>
-						GLOBAL
+						<span className='nav__hamburger-menu__location__text'>GLOBAL</span>
 					</a>
 				</li>
 				<li className='nav__hamburger-menu__location__item'>
 					<a href='#nederland' className='nav__hamburger-menu__location__link'>
-						NEDERLAND
+						<span className='nav__hamburger-menu__location__text'>NEDERLAND</span>
 					</a>
 				</li>
 				<li className='nav__hamburger-menu__location__item'>
 					<a href='#unitedstates' className='nav__hamburger-menu__location__link'>
-						UNITED STATES
+						<span className='nav__hamburger-menu__location__text'>UNITED STATES</span>
 					</a>
 				</li>
 				<li className='nav__hamburger-menu__location__item'>
 					<a href='#ireland' className='nav__hamburger-menu__location__link'>
-						IRELAND
+						<span className='nav__hamburger-menu__location__text'>IRELAND</span>
 					</a>
 				</li>
 				<li className='nav__hamburger-menu__location__item'>
 					<a href='#unitedkingdom' className='nav__hamburger-menu__location__link'>
-						UNITED KINGDOM
+						<span className='nav__hamburger-menu__location__text'>
+							UNITED KINGDOM
+						</span>
 					</a>
 				</li>
 				<li className='nav__hamburger-menu__location__item'>
 					<a href='#deutschland' className='nav__hamburger-menu__location__link'>
-						DEUTSCHLAND
+						<span className='nav__hamburger-menu__location__text'>DEUTSCHLAND</span>
 					</a>
 				</li>
 				<li className='nav__hamburger-menu__location__item'>
 					<a href='#schweiz' className='nav__hamburger-menu__location__link'>
-						SCHWEIZ
+						<span className='nav__hamburger-menu__location__text'>SCHWEIZ</span>
 					</a>
 				</li>
 			</ul>

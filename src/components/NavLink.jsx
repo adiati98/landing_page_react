@@ -2,10 +2,10 @@ import React from 'react'
 
 // Links to other pages for desktop
 
-export default function NavLink({ linkData }) {
+export default function NavLink({ linkData, menuOpen }) {
 	return (
 		<div className='nav__main__links'>
-			<ul className='nav__main__menu menu--show'>
+			<ul className={`${menuOpen ? 'nav__main__links--hide' : 'nav__main__menu'}`}>
 				<li className='nav__main__item'>
 					<a href={linkData.work.link} className='nav__main__link'>
 						<span className='nav__main__link__text'>{linkData.work.title}</span>

@@ -182,6 +182,11 @@ blockquote>span {
     direction: ltr;
   }
 
+  .card__flex__list>.card__flex__article {
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+
   .quote.p-2 {
     padding: 5.75em 4em;
   }

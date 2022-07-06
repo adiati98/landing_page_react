@@ -3,20 +3,24 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
-  gap: 4em;
-  padding: 0 2.2em;
+  gap: 2.5em;
+  padding: 0 1em;
 }
 
 .client__logo__svg {
-  width: 50%;
+  max-width: 70%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .client__container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 6em;
-    padding-top: 4em;
-    padding-left: 6em;
-    padding-right: 6em;
+    padding: 0 2.5em;
+  }
+}
+
+@media (min-width: 1025px) {
+  .client__container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 4em;
   }
 }

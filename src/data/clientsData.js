@@ -15,63 +15,63 @@ const clientsData = [
 	{
 		id: 1,
 		logo: Google,
-		altText: 'Google Logo',
+		altText: 'Google',
 	},
 	{
 		id: 2,
 		logo: Levis,
-		altText: 'Levis Logo',
+		altText: 'Levis',
 	},
 
 	{
 		id: 3,
 		logo: Netflix,
-		altText: 'Netflix Logo',
+		altText: 'Netflix',
 	},
 	{
 		id: 4,
 		logo: Spotify,
-		altText: 'Spotify Logo',
+		altText: 'Spotify',
 	},
 	{
 		id: 5,
 		logo: Patagonia,
-		altText: 'Patagonia Logo',
+		altText: 'Patagonia',
 	},
 	{
 		id: 6,
 		logo: Fujitsu,
-		altText: 'Fujitsu Logo',
+		altText: 'Fujitsu',
 	},
 	{
 		id: 7,
 		logo: Ayden,
-		altText: 'Ayden Logo',
+		altText: 'Ayden',
 	},
 	{
 		id: 8,
 		logo: Audi,
-		altText: 'Audi Logo',
+		altText: 'Audi',
 	},
 	{
 		id: 9,
 		logo: Triumph,
-		altText: 'Triumph Logo',
+		altText: 'Triumph',
 	},
 	{
 		id: 10,
 		logo: Tesla,
-		altText: 'Tesla Logo',
+		altText: 'Tesla',
 	},
 	{
 		id: 11,
 		logo: Asos,
-		altText: 'Asos Logo',
+		altText: 'Asos',
 	},
 	{
 		id: 12,
 		logo: Takeawaycom,
-		altText: 'Takeaway.com Logo',
+		altText: 'Takeaway.com',
 	},
 ]
 

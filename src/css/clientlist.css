@@ -1,35 +1,21 @@
-.client-list__text {
-  color: var(--white);
-  padding: 0 1em;
-}
-
-.client-list__text__title {
-  font-size: 2.1rem;
-  padding: 1em 0;
-}
-
-.client-list__text__description {
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 200%;
-  padding-bottom: 2em;
-}
-
 .client-list__container {
   background-color: var(--black);
   padding-bottom: 4em;
 }
 
-@media (min-width: 990px) {
-  .client-list__text {
-    padding: 0 3em;
-  }
+.client-list__text {
+  color: var(--white);
+  padding: 0 1em;
+}
 
-  .client-list__text__title {
-    font-size: 3rem;
-  }
+.client-list__title {
+  font-size: 2.1rem;
+  padding: 1em 0;
+}
 
-    .client-list__text__description {
-      font-size: 1.5rem;
-    }
+.client-list__description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 200%;
+  padding-bottom: 2em;
 }

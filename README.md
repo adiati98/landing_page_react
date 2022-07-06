@@ -1,10 +1,49 @@
-# 🛬 Landing Page 
+# 🛬 Landing Page
 
 ## Description
 
 This landing page is built with Create React App (version 18.2.0) and CSS.
 
 Live preview is hosted [here](https://courageous-shortbread-903955.netlify.app/), powered by Netlify.
+
+Go to [installation](#installation) section to install and [npm-start](#npm-start) to run this project locally.
+
+## How I worked on this project
+
+- I built this project based on the [Figma](https://www.figma.com/file/ZQyqteqZXwbsnqoRFWPALB/Frontend-Dev-Case-(New)?node-id=2%3A6) design given.
+- My goal for the time given (16 - 24 hours) is to create the whole website layout and make it responsive.
+  - I divided the sections of the website into small components and worked on each component, including the styling.
+  - I temporarily used `min-width: 990px` for most media queries to save some time building the whole website layout.
+
+## Why I built the project this way
+
+- I don't use any other hooks in this project because for what I've done so far `useState` is sufficient.
+- As the real projects are using SASS/SCSS, I chose using vanilla CSS for this project.
+
+## If I had more time, I would change this
+
+- Refactor the codes, mainly in the Navbar section.
+  - Put the logics (state and function) in a parent component and pass them as props to the needed children.
+  - I would add conditional rendering for:
+    - `className` to hide the contain of main navbar when hamburger menu opens.
+    - `className` to make the contain hamburger menu occupies the whole page's width and height when it opens.
+  - Put the `NavLinkLocation` in the flow and style it.
+
+- Fix the `key` prop warning.
+- Improve accessibility by replacing some `<div>` with semantic HTML of `<section>` and `<article>`, and other necessary semantic HTML.
+- Fix the media-queries for all components.
+- Fix the stylings of:
+  - Navbar.
+  - Hamburger menu and links.
+  - The `flexbox` part between the `grid` in the `CardsContainer` component.
+  - Footer info on desktop view.
+
+## If I had more time to do research, I would do this
+
+- Work on the basic of form to grab entered value and a simple authorization.
+- Work on the `Category` component to filter or map mock data and render it to a designated page.
+- Add `react-router` for the links.
+- Add styling to animate hamburger menu icons and some effects for images.
 
 ## Installation
 

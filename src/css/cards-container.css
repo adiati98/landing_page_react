@@ -1,6 +1,6 @@
-.card__container {
-  display: grid;
-  grid-template-columns: 1fr;
+h1>span,
+blockquote>span {
+  display: block;
 }
 
 .card__image {
@@ -9,118 +9,172 @@
   opacity: var(--opacity);
 }
 
-.card__container__image,
-.card__container__image__break {
+.card__grid,
+.card__flex,
+.card__flex--reverse {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card__article {
   position: relative;
 }
 
-.card__image__text__container,
-.image__text__flex {
+.card__text__container {
   position: absolute;
-  bottom: 5%;
+  bottom: 0;
   padding-left: 2em;
-}
-
-.card__image__text,
-.image__text__flex {
   color: var(--white);
 }
 
-.card__image__text__name,
-.image__text__flex__name,
-.read-me {
-  font-size: 1rem;
+.card__flex__list,
+.quote {
+  background-color: var(--button-black);
+  color: var(--white);
 }
 
-.card__image__text__name,
-.image__text__flex__name,
-.image__text__flex__title {
+.card__text__name,
+.card__flex__name {
   padding-bottom: 1em;
 }
 
-.card__image__text__title,
-.image__text__flex__title {
-  font-size: 1.8rem;
+.card__text__title {
   padding-right: 4em;
+  font-size: 1.6rem;
+}
+
+.card__text__name,
+.card__flex__name {
+  text-transform: uppercase;
+}
+
+.card__flex__article:nth-of-type(2) {
+  border-top: 1px solid var(--light-gray);
+  border-bottom: 1px solid var(--light-gray);
+  padding-top: 1em;
+}
+
+.card__flex__article:nth-of-type(3) {
+  padding-top: 1em;
 }
 
 .circle {
-  max-width: 2.5%;
+  width: fit-content;
+}
+
+.read-more {
+  padding-left: 0.5em;
 }
 
 .show-link {
   visibility: hidden;
+  display: inline-flex;
 }
 
-.card__text__flex__name,
-.card__text__flex__description,
-.card__container__quote {
-  background-color: var(--button-black);
-  color: var(--white);
-}
-
-.card__text__flex {
-  border-bottom: 1px solid var(--light-gray);
-  background-color: var(--button-black);
-  padding: 2em;
-}
-
-.card__text__flex__name {
-  text-transform: uppercase;
-  padding-bottom: 1em;
-}
-
-.card__text__flex__description {
-  padding-bottom: 1em;
-}
-
-.card__container__quote {
-  padding: 4em 2em;
+.quote {
   text-align: center;
 }
 
-.card__container__quote__name {
+.quote__description {
+  font-size: 1.6rem;
+}
+
+.quote__name {
   padding-top: 2em;
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
-.card__container__quote__description {
-  font-size: 1.6em;
+@media (min-width: 481px) and (max-width: 767px) {
+  .card__text__title {
+    padding-right: 5em;
+    font-size: 2rem;
+  }
 }
 
-@media (min-width: 990px) {
-  .card__container {
-    display: grid;
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .card__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card__flex,
+  .card__flex--reverse {
+    grid-template-columns: auto 60%;
+  }
+
+  .card__flex__title {
+    padding-bottom: 0.5em;
+  }
+
+  .card__text__container {
+    bottom: 5%;
+  }
+
+  .card__text__title {
+    padding-right: 3em;
+    padding-bottom: 0.5em;
+    font-size: 2.2rem;
   }
 
   .show-link {
     visibility: visible;
   }
 
-  .card__container__break {
-    display: flex;
-    width: fit-content;
+  .read-more:hover {
+    color: var(--light-gray);
+    border-bottom: 1px solid var(--light-gray);
   }
 
-  .card__container__break--reverse {
-    flex-direction: row-reverse;
+  .card__flex--reverse {
+    direction: rtl;
   }
 
-  .card__container__text__break,
-  .card__container__image__break {
-    width: fit-content;
+  .card__flex--reverse>.card__flex__article,
+  .card__flex--reverse>.card__flex__list {
+    direction: ltr;
+  }
+}
+
+@media (min-width: 1025px) {
+  .card__grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .card__image__text__title {
-    padding-bottom: 1em;
+  .card__flex,
+  .card__flex--reverse {
+    grid-template-columns: auto 60%;
   }
 
-  .card__text__flex {
-    width: 100%;
+  .card__flex__title {
+    padding-bottom: 0.5em;
   }
 
-  .read-more {
-    padding-left: 1em;
+  .card__text__container {
+    bottom: 5%;
+  }
+
+  .card__text__title {
+    padding-right: 3em;
+    padding-bottom: 0.5em;
+    font-size: 2.2rem;
+  }
+
+  .show-link {
+    visibility: visible;
+    padding: 0.5em;
+  }
+
+  .read-more:hover {
+    color: var(--light-gray);
+    border-bottom: 1px solid var(--light-gray);
+  }
+
+  .card__flex--reverse {
+    direction: rtl;
+  }
+
+  .card__flex--reverse>.card__flex__article,
+  .card__flex--reverse>.card__flex__list {
+    direction: ltr;
   }
 }

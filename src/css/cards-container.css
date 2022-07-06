@@ -133,6 +133,10 @@ blockquote>span {
   .card__flex--reverse>.card__flex__list {
     direction: ltr;
   }
+
+  .quote.p-2 {
+    padding: 5em 3em;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -176,5 +180,9 @@ blockquote>span {
   .card__flex--reverse>.card__flex__article,
   .card__flex--reverse>.card__flex__list {
     direction: ltr;
+  }
+
+  .quote.p-2 {
+    padding: 5.75em 4em;
   }
 }

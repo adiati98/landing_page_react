@@ -37,6 +37,7 @@ export default function Form(e) {
 						<input
 							type='email'
 							id='email'
+							name='email'
 							aria-describedby='warning'
 							value={values.email}
 							onChange={handleChange}

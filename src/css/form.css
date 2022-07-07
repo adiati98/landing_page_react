@@ -33,7 +33,7 @@ textarea {
   padding: 2em;
 }
 
-#form__input__warning {
+.warning {
   color: var(--red);
   margin-top: 0.5em;
 }
@@ -43,7 +43,6 @@ textarea {
 .form__message {
   padding: 1em 0;
 }
-
 
 .form__btn {
   width: 100%;
@@ -62,7 +61,7 @@ textarea {
   transition: .5s ease;
 }
 
-@media (min-width: 990px) {
+@media (min-width: 1025px) {
 
   input,
   textarea {

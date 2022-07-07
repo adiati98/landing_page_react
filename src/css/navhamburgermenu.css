@@ -19,17 +19,17 @@
 }
 
 .menu__btn__text {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .menu__btn {
-position: absolute;
-  right: 3%;
-  top: 35%;
+  position: absolute;
+  right: 9%;
+  top: 34%;
 }
 
 .menu__close {
-position: absolute;
+  position: absolute;
   right: 3%;
   top: 5%;
 }
@@ -41,24 +41,10 @@ position: absolute;
   cursor: pointer;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-
-  /* .menu__btn,
-  .close {
-    position: absolute;
-    right: 3%;
-    top: 8%;
-  } */
-}
-
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  /* .menu__btn,
-  .close {
-    position: absolute;
-    right: 3%;
-    top: 3%;
-  } */
+  .menu__btn {
+    right: 5%;
+  }
 }
 
 @media (min-width: 1025px) {

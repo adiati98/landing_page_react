@@ -4,7 +4,7 @@
 
 This landing page is built with Create React App (version 18.2.0) and CSS.
 
-Live preview is hosted [here](https://courageous-shortbread-903955.netlify.app/), powered by Netlify.
+Live preview is deployed [here](https://celadon-chebakia-ab2816.netlify.app/), powered by Netlify.
 
 Go to [installation](#installation) section to install and [npm-start](#npm-start) to run this project locally.
 

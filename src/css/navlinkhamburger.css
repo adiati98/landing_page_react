@@ -3,7 +3,7 @@
   flex-direction: column;
   text-transform: uppercase;
   text-align: right;
-  padding-top: 10em;
+  padding-top: 8em;
 }
 
 .nav__hamburger-menu__item {
@@ -20,7 +20,7 @@
 }
 
 .nav__hamburger-menu__text {
-  font-size: 3.75rem;
+  font-size: 3rem;
   border-bottom: 8px solid transparent;
   height: 100px;
   transition: .8s border-bottom ease;
@@ -34,6 +34,10 @@
 
 @media (min-width: 768px) {
   .nav__hamburger-menu__menu {
-    padding-top: 8em;
+    padding-top: 10em;
+  }
+
+  .nav__hamburger-menu__text {
+    font-size: 3.75rem;
   }
 }

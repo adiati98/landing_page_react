@@ -37,12 +37,12 @@ export default function Form(e) {
 						<input
 							type='email'
 							id='email'
-							aria-describedby='form__input__warning'
+							aria-describedby='warning'
 							value={values.email}
 							onChange={handleChange}
 							required
 						/>
-						{!values.email && <p className='warning'>This field is required</p>}
+						{!values.email && <p id='warning'>This field is required</p>}
 					</div>
 				</div>
 				<div className='form__message'>

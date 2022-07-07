@@ -33,7 +33,7 @@ textarea {
   padding: 2em;
 }
 
-.warning {
+#warning {
   color: var(--red);
   margin-top: 0.5em;
 }
